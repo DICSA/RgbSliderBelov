@@ -66,8 +66,11 @@ final class ViewController: UIViewController {
 
     private func setupEgbLabel() {
         redLabel.text = "RED:"
+        redLabel.numberOfLines = 2
         blueLabel.text = "BlUE:"
+        blueLabel.numberOfLines = 2
         greenLabel.text = "GREEN:"
+        greenLabel.numberOfLines = 2
     }
 
     private func setupEgbLabelValue() {
